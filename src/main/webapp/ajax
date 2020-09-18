@@ -1,0 +1,14 @@
+$.ajax({
+    url:"/CRM/",
+    type:"get",
+    data:{},
+    dataType:"json",
+    success:function (data) {
+        if (data.message=="ok"){
+
+        }
+    }
+});
+
+
+
